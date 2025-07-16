@@ -1,4 +1,6 @@
 import { createClient } from "@/utils/supabase/server";
+import { supabase } from "@/utils/supabase/client";
+
  
 export async function GET(request, { params }) {
   const supabase = await createClient();
