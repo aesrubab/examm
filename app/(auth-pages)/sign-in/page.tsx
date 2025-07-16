@@ -60,7 +60,6 @@ export default function Login({ searchParams }: { searchParams: Promise<Message>
 
           <SubmitButton
             formAction={signInAction}
-            pendingText="Signing In..."
             className="bg-red-700"
           >
             Sign in
