@@ -65,7 +65,6 @@ export default function Signup({ searchParams }: { searchParams: Promise<Message
 
           <SubmitButton
             formAction={signUpAction}
-            pendingText="Signing up..."
             className="bg-red-700"
           >
             Sign up
